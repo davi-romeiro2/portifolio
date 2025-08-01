@@ -338,6 +338,27 @@
             margin: 10px 0 -230px 0;
         }
 
+        @media (max-width: 600px) {
+            .timeline-item {
+                flex-direction: column !important;
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+
+            .date {
+                width: 100% !important;
+                border-right: none !important;
+                border-bottom: 1px solid #ddd !important;
+                padding-bottom: 8px;
+                margin-bottom: 8px;
+                text-align: left;
+            }
+
+            .content {
+                padding-top: 0;
+            }
+        }
+
         @media (max-width: 1160px) {
             .perfil {
                 all: unset;
