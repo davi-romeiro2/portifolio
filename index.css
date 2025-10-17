@@ -4,7 +4,7 @@
      /* O grafite escuro para o fundo geral */
      --cor-superficie: #303134;
      /* Um cinza mais claro para cards e seções */
-     --cor-destaque: #7000ff;
+     --cor-destaque: #6b0ee6;
      /* O roxo vibrante para detalhes e interações */
 
      /* Paleta de Texto para Modo Escuro */
@@ -467,4 +467,5 @@
      .perfil {
          all: unset;
      }
+
  }
